@@ -2,10 +2,11 @@
 
 /* Basic styles for the navbar */
 .navbar {
+  font-family: "Trebuchet MS";
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #421a67;
   color: #fff;
   padding: 1rem;
 }
@@ -19,11 +20,15 @@
 /* Styles for the navigation links */
 .navbar-links {
   display: flex;
+  font-family: "Trebuchet MS", sans-serif;
+
   gap: 1rem;
 }
 
 .navbar-links a {
   color: #fff;
+  font-family: "Trebuchet MS", sans-serif;
+
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -32,6 +37,8 @@
 /* Styles for the active mobile menu */
 .navbar-links.active {
   display: flex;
+  font-family: "Trebuchet MS", sans-serif;
+
   flex-direction: column;
   position: absolute;
   top: 64px; /* Adjust this value based on your layout */

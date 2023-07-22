@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">Your Logo</div>
+      <div className="navbar-brand">My-Portfolio</div>
       <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
         <a href="#home">Home</a>
         <a href="#about">About</a>
