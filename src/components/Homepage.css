@@ -1,0 +1,41 @@
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Trebuchet MS";
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 40px;
+}
