@@ -11,8 +11,8 @@ const Homepage = () => {
       <main>
         <section>
           <h2>About Me</h2>
-          <p>
-            Hello! I am [Bimochan Bajimaya], a passionate web developer with a
+          <p className="bio">
+            Hello! I am Bimochan Bajimaya, a passionate web developer with a
             keen interest in creating user-friendly and visually appealing
             websites. I love experimenting with new technologies and learning
             from different projects.
