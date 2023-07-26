@@ -1,60 +1,52 @@
-/* Navbar.css */
-
-/* Basic styles for the navbar */
 .navbar {
-  font-family: "Trebuchet MS";
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #421a67;
   color: #fff;
   padding: 1rem;
+  font-family: "Trebuchet MS";
 }
 
-/* Styles for the brand/logo */
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-/* Styles for the navigation links */
 .navbar-links {
+  font-weight: bold;
   display: flex;
-  font-family: "Trebuchet MS", sans-serif;
-
+  font-family: "Trebuchet MS";
   gap: 1rem;
 }
 
 .navbar-links a {
   color: #fff;
-  font-family: "Trebuchet MS", sans-serif;
-
+  font-family: "Trebuchet MS";
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
 }
 
-/* Styles for the active mobile menu */
 .navbar-links.active {
   display: flex;
-  font-family: "Trebuchet MS", sans-serif;
-
+  font-family: "Trebuchet MS";
   flex-direction: column;
   position: absolute;
-  top: 64px; /* Adjust this value based on your layout */
+  top: 64px;
   right: 1rem;
   background-color: #333;
   z-index: 1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Styles for the mobile toggle button */
 .navbar-mobile-toggle {
   display: none;
   flex-direction: column;
   justify-content: space-between;
   height: 24px;
   cursor: pointer;
+  font-family: "Trebuchet MS";
 }
 
 .bar {
@@ -62,9 +54,9 @@
   height: 2px;
   background-color: #fff;
   transition: 0.3s;
+  font-family: "Trebuchet MS";
 }
 
-/* Media query to display the mobile toggle button and hide the links on smaller screens */
 @media (max-width: 768px) {
   .navbar-links {
     display: none;
